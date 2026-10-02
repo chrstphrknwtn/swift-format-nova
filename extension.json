@@ -1,0 +1,43 @@
+{
+  "identifier": "christopherknewton.SwiftFormat",
+  "name": "Swift Format",
+  "organization": "Christopher Newton",
+  "description": "Format your Swift files using your toolchain's built-in swift-format.",
+  "version": "1.0",
+  "categories": ["commands", "formatters"],
+  "bugs": "https://github.com/chrstphrknwtn/swift-format/issues",
+
+  "main": "main.js",
+
+  "activationEvents": ["onLanguage:swift"],
+
+  "entitlements": {
+    "process": true
+  },
+
+  "config": [
+    {
+      "key": "christopherknewton.SwiftFormat.formatOnSave",
+      "title": "Format on Save",
+      "description": "Run `swift-format` on save.",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "key": "christopherknewton.SwiftFormat.executablePath",
+      "title": "Swift Executable",
+      "description": "Path to the swift driver used to run `swift format`.\nIf you're using Swiftly, you might prefer `~/.swiftly/bin/swift`, or wherever you've installed Swiftly.",
+      "type": "path",
+      "default": "/usr/bin/swift"
+    }
+  ],
+
+  "commands": {
+    "editor": [
+      {
+        "title": "Swift Format",
+        "command": "christopherknewton.SwiftFormat.formatOnSave"
+      }
+    ]
+  }
+}
