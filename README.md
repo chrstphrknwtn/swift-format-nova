@@ -2,7 +2,7 @@
 
 # Swift Format for Nova
 
-A [Nova](https://nova.app) extension for formatting you Swift files using your toolchain's built-in
+A [Nova](https://nova.app) extension for formatting Swift files using your toolchain's built-in
 [swift-format](https://github.com/swiftlang/swift-format).
 
 ## Requirements
