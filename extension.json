@@ -5,7 +5,7 @@
   "description": "Format your Swift files using your toolchain's built-in swift-format.",
   "version": "1.0",
   "categories": ["commands", "formatters"],
-  "bugs": "https://github.com/chrstphrknwtn/swift-format/issues",
+  "bugs": "https://github.com/chrstphrknwtn/swift-format-nova/issues",
 
   "main": "main.js",
 
