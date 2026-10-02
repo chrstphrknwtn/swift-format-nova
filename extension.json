@@ -1,5 +1,5 @@
 {
-  "identifier": "christopherknewton.SwiftFormat",
+  "identifier": "com.christopherknewton.SwiftFormat",
   "name": "Swift Format",
   "organization": "Christopher Newton",
   "description": "Format your Swift files using your toolchain's built-in swift-format.",
